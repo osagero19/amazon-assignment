@@ -190,22 +190,3 @@ The system uses a modular design with:
 - **Individual Enrichers**: Specialized classes for each enrichment type
 
 This design makes it easy to add new enrichment types by extending the `JokeEnricher` base class.
-
-## Example Usage Scenarios
-
-1. **Content Moderation**: Use sentiment analysis to identify potentially inappropriate jokes
-2. **Content Categorization**: Use keyword extraction to categorize jokes by programming topic
-3. **Accessibility**: Use readability scoring to ensure jokes are appropriate for different audiences
-4. **Content Planning**: Use length classification to balance joke variety in presentations
-
-## Error Handling
-
-The system includes robust error handling for:
-- Missing input files
-- Invalid JSON format
-- File I/O errors
-- Unknown enrichment types
-
-## Performance
-
-The system processes jokes efficiently and can handle large datasets. Each enrichment type is applied independently, allowing for flexible combinations. 
